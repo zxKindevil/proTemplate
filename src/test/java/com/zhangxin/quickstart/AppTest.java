@@ -3,6 +3,8 @@ package com.zhangxin.quickstart;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Unit test for simple App.
@@ -10,6 +12,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
+    private final static Logger logger = LoggerFactory.getLogger(App.class);
     /**
      * Create the test case
      *
@@ -17,7 +20,8 @@ public class AppTest
      */
     public AppTest( String testName )
     {
-        super( testName );
+        super(testName);
+
     }
 
     /**
@@ -33,6 +37,7 @@ public class AppTest
      */
     public void testApp()
     {
+        logger.info("info");
         assertTrue( true );
     }
 }
