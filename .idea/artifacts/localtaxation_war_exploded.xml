@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="localtaxation" />
+          <element id="module-output" name="SSM" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
@@ -49,7 +49,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="localtaxation/web/Web" />
+      <element id="javaee-facet-resources" facet="SSM/web/Web" />
     </root>
   </artifact>
 </component>

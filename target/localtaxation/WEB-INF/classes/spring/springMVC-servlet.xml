@@ -15,7 +15,7 @@
         ">
 
 	<!-- 使用注解的包，包括子集 -->
-    <context:component-scan base-package="com" />
+    <context:component-scan base-package="com.zhangxin" />
     
     <!-- 静态资源访问 -->
     <mvc:annotation-driven />
@@ -31,7 +31,7 @@
 	<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
 		<property name="exceptionMappings">
 			<props>
-				<prop key="com.zhangxin.spring.exception.TempException">error</prop>
+				<prop key="com.zhangxin.exception.TempException">error</prop>
                 <prop key="java.lang.Exception">error</prop>
 			</props>
 		</property>
